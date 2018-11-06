@@ -1,8 +1,7 @@
-##  svg-react-redux-sass
-##  a.k.a Astro-Train Project
+##  svg-react-redux-sass - a.k.a Astro-Train Project
 
 This project includes Svg.js, React, Redux and Sass initally. 
-Later on I'll be adding stuff... sit back and relax!
+Later on I'll be adding stuff... sit back and relax or not ;)
 
 ![alt text](https://vignette.wikia.nocookie.net/marvelcrossroads/images/a/a5/Astrotrain.jpg)
 
