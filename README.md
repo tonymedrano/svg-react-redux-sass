@@ -2,6 +2,8 @@
 
 This project includes Svg.js, React, Redux and Sass initally. 
 
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
