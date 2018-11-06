@@ -238,10 +238,13 @@ h3 {
     }
   .social {
     position: absolute;
-    bottom: -60px;
+    bottom: -50px;
     height: 0;
     z-index: -1;
     font-size: em(28px);
+  }
+  .icons-social{
+    width: 40px;
   }
 }
 

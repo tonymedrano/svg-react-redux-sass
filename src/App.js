@@ -1,13 +1,21 @@
 import React, { Component } from 'react'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faStroopwafel } from '@fortawesome/free-solid-svg-icons'
+import { faTwitter, faFacebook, faGooglePlusG, faGithub } from '@fortawesome/fontawesome-free-brands'
 import 'semantic-ui-css/semantic.min.css'
 import './App.scss'
 
-import { 
-  Menu, 
-  Header 
+import {
+  Menu,
+  Header
 } from './components'
 
 class App extends Component {
+
+  componentDidMount(){
+    library.add(faStroopwafel)
+  }
 
   render() {
     return (
@@ -24,7 +32,8 @@ class App extends Component {
                 <div className="item">
                   <h4 className="item-title">This is the post title</h4>
                   <img src="http://lorempixel.com/600/150/nature" alt="Sample Image" className="item-image" />
-                  <p>Frankly, it's ludicrous to have these interlocking bodies and not...interlock. My Uncle Rory was the stodgiest taxidermist you've ever met by day. But I haven't spent any money! I was all... dead and frugal. The only way some people can find a purpose in life is by becoming obsessed with demons. Should I start this program over? It's a real burn, being right so often. Can't call to mom, can't say a word. Nobody could do that much decoupage without calling on the powers of darkness. I'll never leave. Not even if you kill me. If I could make you purtier, I would.</p> </div>
+                  <p>Frankly, it's ludicrous to have these interlocking bodies and not...interlock. My Uncle Rory was the stodgiest taxidermist you've ever met by day. But I haven't spent any money! I was all... dead and frugal. The only way some people can find a purpose in life is by becoming obsessed with demons. Should I start this program over? It's a real burn, being right so often. Can't call to mom, can't say a word. Nobody could do that much decoupage without calling on the powers of darkness. I'll never leave. Not even if you kill me. If I could make you purtier, I would.</p>
+                </div>
 
                 <div className="item">
                   <h4 className="item-title">This is the post title</h4>
@@ -47,10 +56,10 @@ class App extends Component {
                   <p>From beneath you, it devours. Y'all see the man hanging out of the spaceship with the really big gun? No, Angel, it's not you. If I was blind, I would see you. Yes, I'd forgotten you're moonlighting as a criminal mastermind now.</p>
                   <p>The human body can be drained of blood in 8.6 seconds given adequate vacuuming systems. Actually, I was fired from a fry-cook opportunity. I'm a comfortador also. Oh my god, I find lentils completely incomprehensible. The human mind is like Van Halen if you just pull out one piece and keep replacing it, it just degenerates.</p>
                   <div className="social">
-                    <a href="#"><i className="fa fa-facebook"></i></a>
-                    <a href="#"><i className="fa fa-twitter"></i></a>
-                    <a href="#"><i className="fa fa-google"></i></a>
-                    <a href="#"><i className="fa fa-envelope"></i></a>
+                    <a href="#"><FontAwesomeIcon icon={faTwitter} className="icons-social" /></a>
+                    <a href="#"><FontAwesomeIcon icon={faFacebook} className="icons-social" /></a>
+                    <a href="#"><FontAwesomeIcon icon={faGooglePlusG} className="icons-social" /></a>
+                    <a href="#"><FontAwesomeIcon icon={faGithub} className="icons-social" /></a>
                   </div>
 
                 </div>
