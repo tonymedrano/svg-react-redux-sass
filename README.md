@@ -1,3 +1,7 @@
+##  svg-react-redux-sass a.k.a Astro-Train:
+
+This project includes Svg.js, React, Redux and Sass initally. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
